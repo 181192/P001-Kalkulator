@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="no.kalliainen.kalli.MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6d6d6d">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/textView3" />
+
+            <Button
+                android:text="Kalkulator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnKalkulator"
+                android:background="#4d4d4d"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif-light"
+                android:fadingEdge="horizontal" />
+
+            <Button
+                android:text="Resistor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnResistor"
+                android:background="#4d4d4d"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif-light"/>
+
+            <Button
+                android:text="SSH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSSH"
+                android:background="#4d4d4d"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif-light"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

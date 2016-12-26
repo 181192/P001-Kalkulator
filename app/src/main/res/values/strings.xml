@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kalli</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_start_resistor">StartResistorActivity</string>
+    <string name="title_activity_resistor">ResistorActivity</string>
+    <string name="title_activity_start_ssh">StartSSHActivity</string>
+    <string name="title_activity_ssh">SSHActivity</string>
+</resources>

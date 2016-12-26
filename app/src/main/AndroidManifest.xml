@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="no.kalliainen.kalli">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartKalkulatorActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KalkulatorActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartResistorActivity"
+            android:label="@string/title_activity_start_resistor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResistorActivity"
+            android:label="@string/title_activity_resistor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartSSHActivity"
+            android:label="@string/title_activity_start_ssh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSHActivity"
+            android:label="@string/title_activity_ssh"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
