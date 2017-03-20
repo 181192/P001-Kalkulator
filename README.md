@@ -1,2 +1,2 @@
-# Kalli
+# Kalkulator
 Min første android app
