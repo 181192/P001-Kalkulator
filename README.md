@@ -1,8 +1,8 @@
-## Kalkulator
+# Kalkulator
 Min første android app
 
 
-# Inneholder
+## Inneholder
 - Kalkulator
 - SSH
 - Resistor Kalkulator
